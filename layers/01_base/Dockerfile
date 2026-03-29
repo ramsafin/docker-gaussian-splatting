@@ -17,4 +17,4 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     ninja-build \
     cmake \
     nano \
-    && rm -rf /var/lib/apt/lists/*
+ && rm -rf /var/lib/apt/lists/*
