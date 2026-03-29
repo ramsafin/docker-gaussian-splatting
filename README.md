@@ -57,7 +57,7 @@ Available CUDA base variants:
 
 #### 2. Build PyTorch Base Images
 
-hese images add PyTorch with CUDA support:
+These images add PyTorch with CUDA support:
 
 ```bash
 # Build all PyTorch base images
