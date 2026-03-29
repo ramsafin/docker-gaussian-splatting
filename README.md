@@ -1,6 +1,6 @@
 # Gaussian Splatting Docker Images
 
-Docker images for Gaussian Splatting with CUDA support, providing a reproducible env for Gaussian Splatting.
+Docker images for Gaussian Splatting with CUDA support.
 
 ## Prerequisites
 
