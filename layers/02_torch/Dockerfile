@@ -33,8 +33,7 @@ RUN micromamba create -y -n "${ENV_NAME}" python="${PYTHON_VERSION}" pip \
 
 ENV PATH=/opt/micromamba/envs/${ENV_NAME}/bin:${PATH}
 
-RUN python --version \
- && pip install --no-cache-dir --upgrade pip setuptools wheel \
+RUN pip install --no-cache-dir --upgrade pip setuptools wheel \
  && pip install --no-cache-dir \
       "torch==${TORCH_VERSION}" \
       "torchvision==${TORCHVISION_VERSION}" \
