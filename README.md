@@ -4,15 +4,9 @@ Docker images for Gaussian Splatting with CUDA support.
 
 ## Prerequisites
 
-- Docker (version `29+`)
+- Docker (version `29.x.x+`)
 - Docker Buildx (for multi-platform builds)
 - NVIDIA Container Toolkit (for GPU support)
-
-Install buildx plugin:
-
-```bash
-docker buildx install
-```
 
 Verify NVIDIA Container Toolkit is installed:
 
